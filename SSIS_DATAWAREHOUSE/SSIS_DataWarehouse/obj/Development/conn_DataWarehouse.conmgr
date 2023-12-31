@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="conn_DataWarehouse"
+  DTS:DTSID="{56CC9AA7-4ABC-4B67-AD26-673A684AB210}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::Conn_Local_DataWarehouse]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-GMJ83SF;Initial Catalog=STOREDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-SSIS_DataWarehouse-{56CC9AA7-4ABC-4B67-AD26-673A684AB210}DESKTOP-GMJ83SF.STOREDW;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

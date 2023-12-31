@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<SSIS:Parameters xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+  <SSIS:Parameter
+    SSIS:Name="Conn_Local_DataWarehouse">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{eeba753d-bcd1-4966-9c88-37a776aa1b02}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">Data Source=DESKTOP-GMJ83SF;Initial Catalog=STOREDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-SSIS_DataWarehouse-{56CC9AA7-4ABC-4B67-AD26-673A684AB210}DESKTOP-GMJ83SF.STOREDW;</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="conn_Excel">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{fd0eac48-3e66-45cd-961d-97b4551d09ca}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\BOSCH\BUILD_DATAWAREHOUSE_SSIS\Sample - Superstore.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+</SSIS:Parameters>
